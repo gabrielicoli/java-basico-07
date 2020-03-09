@@ -6,12 +6,12 @@ public class Main {
 		Main app = new Main();
 		app.start();
 		
+		
 	}
 
 	private void start() {
 		
-		
-	}
+			}
 	private void operacoes(int num, int num1) {
 		num=5;
 		num1=5;
@@ -22,12 +22,17 @@ public class Main {
     	
 		num=10.27;
 		num1=10.42;
+		
+		num=num+num1;
+		 
+		System.out.println("O resultado da operação e: "+num);
 			}
 	private void operacoes(String num, String texto) {
 		num = "44";
-		texto = "Exercicio de numero 7";
+		texto = "Meu namorado calça número";
+		String result= num.concat(texto);
 		
-		
+		System.out.println("O resultado da operação e: "+result);
 	}
 		
 	
